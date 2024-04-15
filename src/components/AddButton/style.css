@@ -1,0 +1,29 @@
+.add-button {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.add-button:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid currentColor;
+  animation: Rotate 1s ease forwards;
+}
+
+@keyframes Rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

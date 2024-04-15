@@ -1,0 +1,88 @@
+.event-form-layer {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background-color: #2e364a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.event-form-container {
+  width: 600px;
+  background-color: #ccc;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.event-form-container .edit-wrapper {
+  position: relative;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.event-form-container .edit-wrapper input {
+  width: 100%;
+}
+
+.event-form-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.button-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-wrapper button {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper .error-message {
+  bottom: 40px;
+  left: 0px;
+
+}
+
+.button-wrapper button.cancel-button {
+  background-color: #e13939;
+}
+
+.button-wrapper button.confirm-button {
+  background-color: #65cd65;
+}
+
+.button-wrapper button .icon-content.confirm,
+.button-wrapper button .icon-content.cancel {
+  background-color: transparent;
+}
+
+.error-message {
+  color: #e84e4e;
+  font-size: 12px;
+}

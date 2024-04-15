@@ -1,0 +1,11 @@
+.remove-form {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.remove-form p {
+  width: 100%;
+  font-weight: bold;
+}

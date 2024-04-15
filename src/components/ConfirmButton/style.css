@@ -1,0 +1,8 @@
+.confirm-button {
+  padding: 0px 10px 0px 10px;
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}

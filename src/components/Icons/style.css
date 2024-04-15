@@ -1,0 +1,16 @@
+.icon-content {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-content.confirm {
+  background-color: #65cd65;
+}
+
+.icon-content.cancel {
+  background-color: #e13939;
+}

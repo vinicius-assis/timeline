@@ -1,0 +1,50 @@
+.edit-wrapper {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  padding-left: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  align-content: stretch;
+}
+
+.edit-wrapper.full {
+  margin-bottom: 5px;
+}
+
+.input {
+  width: calc(100% - 80px);
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  caret-color: rgb(255, 81, 0);
+}
+
+.full .input {
+  width: 100%;
+}
+
+.border {
+  height: 40%;
+  width: 1.3px;
+  background-color: rgb(223, 223, 223);
+}
+
+.error-message {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .edit-wrapper {
+    padding-left: 10px;
+  }
+}

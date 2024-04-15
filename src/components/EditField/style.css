@@ -1,0 +1,8 @@
+.input {
+  width: calc(100% - 80px);
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  caret-color: rgb(255, 81, 0);
+}
